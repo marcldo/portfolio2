@@ -8,6 +8,18 @@ body{
     padding-right: 40px;
 }
 
+.headings{
+    z-index: 20;
+}
+
+.subheading{
+    font-size: 12px;
+}
+
+.heading{
+    font-size:25px;
+}
+
 .grid-items{
     display: flex;
     flex-flow: row wrap; 
