@@ -1,7 +1,6 @@
 body{
     background-color: #fff;
     box-sizing: border-box;
-    text-align: center;
     height: 100%;
     position: relative;
     margin: 0;
@@ -10,6 +9,7 @@ body{
 
 .portfolio-container{
     height: 100%;
+    text-align: center;
 }
 
 
@@ -28,6 +28,7 @@ body{
     z-index: 20;
     margin-top: 0;
     padding-top:5vh;
+    min-height:575px;
 }
 
 .headings{
@@ -48,6 +49,11 @@ body{
 
 .heading{
     font-size:25px;
+    position: absolute;
+    padding: 0 20px;
+    top: 38.5%;
+    left: 0;
+    right: 0;
 }
 
 .grid-items{
@@ -55,6 +61,9 @@ body{
     flex-flow: row wrap; 
 }
 
+.projects{
+    margin-top: -180px;
+}
 
 
 .section-title{
@@ -64,6 +73,7 @@ body{
     z-index: 10;
     text-align: left;
 }
+
 
 
 
@@ -110,7 +120,30 @@ background-image: url("../images/placeimg1.jpg");
 .project4 .grid-item-bg{
     background-image: url("../images/placeimg3.jpg")
 }
+/* work images ************************************/
 
+.td .grid-item-bg{
+    background-image: url("../images/td.jpg");
+    }
+    .td{
+        color: #ffffff
+    }
+
+.appvine{
+    background-color: #0E6251;
+}
+.appvine{
+    color: #ffffff
+}
+
+.presto{
+    background-image: url("../images/presto.jpg");
+    
+}
+
+.presto{
+    color: #ffffff
+}
 /************************************/
 
 .grid-item-bg{
