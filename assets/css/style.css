@@ -1,19 +1,49 @@
 body{
     background-color: #fff;
     box-sizing: border-box;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
+.portfolio-container{
+    height: 100%;
+}
+
+
+
 .content-wrapper{
-    padding-left: 40px;
-    padding-right: 40px;
+    width:1280px;
+    padding: 40px;
+    box-sizing: border-box;
+    max-width:100%;
+    overflow: hidden;
+    margin: 240px auto 0;
+}
+.hero{
+    height: 100%;
+    position: relative;
+    z-index: 20;
+    margin-top: 0;
+    padding-top:5vh;
 }
 
 .headings{
     z-index: 20;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 .subheading{
     font-size: 12px;
+    position: absolute;
+    padding: 0 20px;
+    top: 34.5%;
+    left: 0;
+    right: 0;
+    letter-spacing: 5px;
 }
 
 .heading{
@@ -25,11 +55,14 @@ body{
     flex-flow: row wrap; 
 }
 
+
+
 .section-title{
     position: relative;
     flex: 1 100%;
     font-size: 10vw;
     z-index: 10;
+    text-align: left;
 }
 
 
@@ -51,8 +84,7 @@ position: relative;
     position: relative;
     min-height: 575px;
 }
-.grid-item:nth-child(n+2){
-    
+.grid-item:nth-child(n+2){   
     position: relative;
 }
 
@@ -121,6 +153,8 @@ bottom: 0;
     position: relative;
     padding-top: 1em;
 }
+
+
 
 @media only screen and (max-width: 600px){
     .content-wrapper{
