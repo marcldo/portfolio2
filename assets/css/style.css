@@ -144,6 +144,10 @@ background-image: url("../images/placeimg1.jpg");
 .presto{
     color: #ffffff
 }
+/* contact images ************************************/
+.contact-img{
+    background-image: url("../images/placeimg3.jpg");
+}
 /************************************/
 
 .grid-item-bg{
