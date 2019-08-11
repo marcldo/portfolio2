@@ -1,16 +1,15 @@
 
-/* Colors #ffb996 biege
-#f47c7c coral
-#843b62 mid purple
-#0a022d dark purple
-#725269 grey 
+/* Colors
+#586f7c PAYNE'S GREY
+#b8dbd9 light blue
+#04724d bottle green
 
-#f9f9f9 white
+#f4f4f9 white
 #30303a black
 */
 
 body{
-    background-color: #f9f9f9;
+    background-color: #f4f4f9;
     color: #30303a;
     box-sizing: border-box;
     height: 100%;
@@ -18,6 +17,9 @@ body{
     margin: 0;
     padding: 0;
 }
+
+a:link {color:currentColor;}
+a:visited {color:currentColor;} /* Visited link color */
 
 .portfolio-container{
     height: 100%;
@@ -51,7 +53,7 @@ body{
 
 .subheading{
     font-family: "Helvetica";
-    font-size: 12px;
+    font-size: 18px;
     position: absolute;
     padding: 0 20px;
     top: 34.5%;
@@ -61,7 +63,7 @@ body{
 }
 
 .heading{
-    font-size:25px;
+    font-size:30px;
     position: absolute;
     padding: 0 20px;
     top: 38.5%;
@@ -123,20 +125,20 @@ position: relative;
 background-image: url("../images/things2Do.jpeg");
 }
 .things2Do{
-    color: #f9f9f9
+    color: #f4f4f9
 }
 .giffle .grid-item-bg{
-    background-color: #0a022d  ;
+    background-color: #586f7c ;
 }
 .giffle{
-    color: #f9f9f9;
+    color: #f4f4f9;
 }
 
 .jeopardy .grid-item-bg{
-    background-color: #f47c7c;
+    background-color: #b8dbd9;
 }
 .jeopardy{
-    color: #f9f9f9;
+    color: #30303a;
 }
 
 .crystalCollector .grid-item-bg{
@@ -145,20 +147,34 @@ background-image: url("../images/things2Do.jpeg");
 .crystalCollector{
     color: #30303a;
 }
+
+.trainScheduler .grid-item-bg{
+    background-image: url("../images/trainScheduler.jpeg")
+}
+.trainScheduler {
+    color: #f4f4f9;
+}
+
+.wordGuess .grid-item-bg{
+    background-image: url("../images/wordGuess.jpg")
+}
+.wordGuess {
+    color: #30303a;
+}
 /* work images ************************************/
 
 .td .grid-item-bg{
     background-image: url("../images/td.jpg");
     }
     .td{
-        color: #ffffff;
+        color: #f4f4f9;
     }
 
 .appvine{
-    background-color: #0E6251;
+    background-color: #04724d;
 }
 .appvine{
-    color: #ffffff;
+    color: #f4f4f9;
 }
 
 .presto .grid-item-bg{
@@ -167,11 +183,19 @@ background-image: url("../images/things2Do.jpeg");
 }
 
 .presto{
-    color: #ffffff;
+    color: #f4f4f9;
 }
 /* contact images ************************************/
+
+.contact-card .grid-item-bg{
+    background-color:#586f7c;
+}
+.contact-card{
+    color: #f4f4f9;
+}
+
 .contact-img .grid-item-bg{
-    background-image: url("../images/placeimg3.jpg");
+    background-image: url("../images/marc.jpg");
 }
 /************************************/
 
@@ -211,10 +235,10 @@ bottom: 0;
 
 .grid-item-text{
     font-family: Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     max-width: 80%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.9em;
     position: relative;
     padding-top: 2em;
@@ -227,6 +251,22 @@ bottom: 0;
     bottom: 0;
     right: 0;
     z-index: 100;
+}
+
+
+
+.contact-links{
+    padding-top: 30px;
+    font-size: 30px;
+}
+.fab{
+    padding: 8px;
+}
+
+.contact-card .grid-item-header{
+    padding-top: 150px;
+    font-size: 30px;
+    color: currentColor;
 }
 
 
