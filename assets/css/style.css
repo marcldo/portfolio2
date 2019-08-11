@@ -18,12 +18,35 @@ body{
     padding: 0;
 }
 
+
 a:link {color:currentColor;}
 a:visited {color:currentColor;} /* Visited link color */
 
 .portfolio-container{
     height: 100%;
     text-align: center;
+}
+
+/* header styling */
+.menu{
+    position: absolute;
+    top: 2.7vmin;
+    left: 2.8vmin;
+    z-index: 1000;
+    width: 23px;
+}
+.contact-envelope{
+    position: absolute;
+    top: 2vmin;
+    right: 3vmin;
+    z-index: 1000;
+    width: 23px;
+}
+.fas{
+    font-size: 20px;
+}
+.far{
+    font-size: 20px;
 }
 
 
@@ -36,6 +59,8 @@ a:visited {color:currentColor;} /* Visited link color */
     overflow: hidden;
     margin: 240px auto 0;
 }
+
+/* hero styling */
 .hero{
     height: 100%;
     position: relative;
@@ -70,6 +95,8 @@ a:visited {color:currentColor;} /* Visited link color */
     left: 0;
     right: 0;
 }
+
+/* grid styling */
 
 .grid-items{
     display: flex;
@@ -199,6 +226,8 @@ background-image: url("../images/things2Do.jpeg");
 }
 /************************************/
 
+
+/* grid items styling */
 .grid-item-bg{
 width: 100%;
 height: 100%;
@@ -253,6 +282,7 @@ bottom: 0;
     z-index: 100;
 }
 
+/* contact card styling */
 
 
 .contact-links{
@@ -264,8 +294,8 @@ bottom: 0;
 }
 
 .contact-card .grid-item-header{
-    padding-top: 150px;
-    font-size: 30px;
+    padding-top: 100px;
+    font-size: 45px;
     color: currentColor;
 }
 
