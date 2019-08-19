@@ -154,6 +154,13 @@ background-image: url("../images/things2Do.jpeg");
 .things2Do{
     color: #f4f4f9
 }
+
+.liri .grid-item-bg{
+    background-color: #04724d;
+}
+.liri{
+    color: #f4f4f9;
+}
 .giffle .grid-item-bg{
     background-color: #586f7c ;
 }
