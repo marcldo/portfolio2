@@ -3,6 +3,8 @@
 #586f7c PAYNE'S GREY
 #b8dbd9 light blue
 #04724d bottle green
+#4D7C8A teal blue
+#1B4079 DARK CERULEAN
 
 #f4f4f9 white
 #30303a black
@@ -155,12 +157,29 @@ background-image: url("../images/things2Do.jpeg");
     color: #f4f4f9
 }
 
+.bamazon .grid-item-bg{
+    background-color: #1B4079;
+}
+.bamazon{
+    color: #f4f4f9;
+}
+
 .liri .grid-item-bg{
     background-color: #04724d;
 }
 .liri{
     color: #f4f4f9;
 }
+
+.petFinder .grid-item-bg{
+    background-image: url("../images/cat.jpeg");
+    background-position: center bottom;
+    }
+.petFinder{
+        color: #30303a;
+    }
+
+
 .giffle .grid-item-bg{
     background-color: #586f7c ;
 }
@@ -173,6 +192,13 @@ background-image: url("../images/things2Do.jpeg");
 }
 .jeopardy{
     color: #30303a;
+}
+
+.burger .grid-item-bg{
+    background-image: url("../images/burger.jpeg")
+}
+.burger{
+    color: #f4f4f9;
 }
 
 .crystalCollector .grid-item-bg{
