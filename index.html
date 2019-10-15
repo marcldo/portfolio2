@@ -11,25 +11,50 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/8fbda28175.js"></script>
 
-
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- Javascript -->
-    <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/app.js"></script>
+
 </head>
 
 <body class="portfolio-container">
     <div class="site-header">
-        <div class="site-nav-animation-wrapper menu-animation-wrapper"></div>
+        <!-- <div class="site-nav-animation-wrapper menu-animation-wrapper">
+
+        </div> -->
+
+        <div class="navbar-buttons">
+            <a href="" class="open-menu"><i class="fas fa-bars"></i></a>
+            <a href="" class="contact-envelope"><i class="far fa-envelope"></i></a>
+            <a href="" class="close-menu"><i class="fas fa-times"></i></a>
+        </div>
     </div>
-    <!-- <a href="" class="menu"><i class="fas fa-bars"></i></a>
-    <a href="" class="contact-envelope"><i class="far fa-envelope"></i></a> -->
-    <div class="content-wrapper hero">
-        <h6 class="subheading">Marc Felizardo</h6>
-        <h2 class="heading">Let's work together and build some great applications.</h2>
+    <div class="overlay">
+        <h2 class="nav-title">Marc Felizardo</h2>
+        <nav class="overlay-menu">
+            <ul>
+                <li><a href="#" data-value="projects">Projects</a></li>
+                <li><a href="#" data-value="work">Work</a></li>
+                <li> <a href="#" data-value="contact">Contact</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <div class="projects grid-items content-wrapper">
+
+
+
+    <div class="content-wrapper hero">
+        <h6 class="subheading">Marc Felizardo</h6>
+        <h2 class="heading">Let's work together and build some great apps.</h2>
+    </div>
+
+    <!-- projects -->
+    <div class="projects grid-items content-wrapper" id="projects">
         <div class="section-title">
             <h2>Projects</h2>
         </div>
@@ -142,7 +167,10 @@
 
     </div>
 
-    <div class="work grid-items content-wrapper">
+
+    <!-- Work -->
+
+    <div class="work grid-items content-wrapper" id="work">
         <div class="section-title">
             <h2>Work</h2>
         </div>
@@ -181,7 +209,8 @@
         </div>
     </div>
 
-    <div class="contact grid-items content-wrapper">
+    <!-- contact -->
+    <div class="contact grid-items content-wrapper" id="contact">
         <div class="section-title">
             <h2>Contact</h2>
         </div>
