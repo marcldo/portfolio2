@@ -25,4 +25,14 @@ $(document).ready(function () {
         }, 1000);
 
     });
+
+    $(".grid-item").hover(function () {
+        $(this).find(".grid-item-github").animate({ opacity: 1 })
+        $(this).find(".grid-item-launch").animate({ opacity: 1 })
+
+    }, function () {
+        $(this).find(".grid-item-github").animate({ opacity: 0 })
+        $(this).find(".grid-item-launch").animate({ opacity: 0 })
+    }
+    );
 })

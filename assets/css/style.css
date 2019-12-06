@@ -270,6 +270,20 @@ a:visited {color:currentColor;} /* Visited link color */
 }
 
 /* project images ************************************/
+.billionaire .grid-item-bg{
+    background-image: url("../images/billionaire.jpeg");
+    }
+    .billionaire{
+        color: #f4f4f9
+    }
+
+.robinHood .grid-item-bg{
+    background-image: url("../images/robinHood.gif");
+    }
+    .robinHood{
+        color: #f4f4f9
+    }
+
 
 .things2Do .grid-item-bg{
 background-image: url("../images/things2Do.jpeg");
@@ -329,10 +343,10 @@ background-image: url("../images/things2Do.jpeg");
     color: #30303a;
 }
 
-.trainScheduler .grid-item-bg{
-    background-image: url("../images/trainScheduler.jpeg")
+.jobify .grid-item-bg{
+    background-image: url("../images/jobify.jpeg")
 }
-.trainScheduler {
+.jobify {
     color: #f4f4f9;
 }
 
@@ -436,6 +450,50 @@ bottom: 0;
     z-index: 100;
 }
 
+.grid-item-github{
+    position: absolute;
+    left: 43%;
+    margin: 70px -25px 5px;
+    z-index: 150;
+    font-size: 55px;
+    opacity: 0;
+}
+
+.grid-item-launch{
+    position: absolute;
+    left: 57%;
+    margin: 70px -25px 5px;
+    z-index: 150;
+    font-size: 55px;
+    opacity: 0;
+}
+
+.github-text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 15px;
+    opacity: 0;
+    text-decoration: none !important;
+}
+
+.launch-text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 15px;
+    opacity: 0;
+    text-decoration: none !important;
+}
+
+.fa-rocket {
+    font-size: 45px;
+}
+
+
+
 /* contact card styling */
 
 
@@ -443,7 +501,7 @@ bottom: 0;
     padding-top: 30px;
     font-size: 30px;
 }
-.fab{
+.contact-link{
     padding: 8px;
 }
 
