@@ -270,18 +270,58 @@ a:visited {color:currentColor;} /* Visited link color */
 }
 
 /* project images ************************************/
+.expensify .grid-item-bg{
+    background-image: url("../images/money.jpeg");
+    background-position: center top;
+    opacity: 50%;
+    }
+    .expensify{
+        color: #30303a;
+    }
+
+.indecision .grid-item-bg{
+    background-image: url("../images/indecision.jpeg");
+    background-position: center top;
+    }
+    .indecision{
+        color: #30303a;
+    }
+
+.gatsbyBlog .grid-item-bg{
+    background-image: url("../images/gatsbyBlog.jpeg");
+    opacity: 50%;
+    }
+.gatsbyBlog{
+            color: #30303a;
+}
+
+.cssGrid .grid-item-bg{
+        background-color: #1B4079;
+    }
+.cssGrid{
+        color: #f4f4f9;
+    }
+    
+.cssCards .grid-item-bg{
+    background-image: url("../images/cssCards.gif");
+    opacity: 20%;
+    }
+.cssCards{
+        color: #30303a;
+}
+
 .billionaire .grid-item-bg{
     background-image: url("../images/billionaire.jpeg");
     }
     .billionaire{
-        color: #f4f4f9
+        color: #f4f4f9;
     }
 
 .robinHood .grid-item-bg{
     background-image: url("../images/robinHood.gif");
     }
     .robinHood{
-        color: #f4f4f9
+        color: #f4f4f9;
     }
 
 
@@ -289,7 +329,7 @@ a:visited {color:currentColor;} /* Visited link color */
 background-image: url("../images/things2Do.jpeg");
 }
 .things2Do{
-    color: #f4f4f9
+    color: #f4f4f9;
 }
 
 .bamazon .grid-item-bg{
