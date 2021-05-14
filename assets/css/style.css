@@ -398,17 +398,25 @@ background-image: url("../images/things2Do.jpeg");
 }
 /* work images ************************************/
 
+.freelance {
+    background-color: #586f7c;
+    color: #f4f4f9;
+}
+
+.bapo {
+    background-color: #1B4079;
+    color: #f4f4f9;
+}
+
 .td .grid-item-bg{
     background-image: url("../images/td.jpg");
     }
-    .td{
-        color: #f4f4f9;
-    }
+.td{
+    color: #f4f4f9;
+}
 
 .appvine{
     background-color: #04724d;
-}
-.appvine{
     color: #f4f4f9;
 }
 
